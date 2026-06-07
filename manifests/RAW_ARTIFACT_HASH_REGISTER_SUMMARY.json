@@ -1,0 +1,148 @@
+{
+  "created_at": "2026-06-08 04:55:48",
+  "script": "37j_raw_hash_only_fixed.py",
+  "input_policy": "read_only_no_delete_no_move_no_modify_no_rename",
+  "out_dir_public_note": "[D_DESKTOP_1]",
+  "public_rows": 56508,
+  "private_rows": 56508,
+  "errors": 0,
+  "duplicates": 3650,
+  "run_stats": {
+    "files_discovered": 56508,
+    "hashed_count": 56508,
+    "reused_count": 0,
+    "elapsed_seconds": 1316.886
+  },
+  "publish_mode": {
+    "publish_mode": "single",
+    "files": [
+      "RAW_ARTIFACT_HASH_REGISTER_PUBLIC.csv"
+    ]
+  },
+  "root_status_public": [
+    {
+      "root_label": "H_DeviceLogs_All",
+      "exists": true
+    },
+    {
+      "root_label": "H_mini1G",
+      "exists": true
+    },
+    {
+      "root_label": "H_Room85_All",
+      "exists": true
+    },
+    {
+      "root_label": "H_Final33b",
+      "exists": true
+    },
+    {
+      "root_label": "H_Repo34",
+      "exists": true
+    }
+  ],
+  "artifact_type_counts": {
+    "analytics_log": 47507,
+    "rtcr": 2215,
+    "analytics_synced": 2033,
+    "text_log": 1314,
+    "sysdiagnose": 1215,
+    "other": 1070,
+    "csv_summary": 501,
+    "json_summary": 131,
+    "commcenter_baseband": 95,
+    "usageclientid": 84,
+    "endpoint_network": 59,
+    "script": 54,
+    "jetsam_resource": 51,
+    "manifest_related": 41,
+    "imazing_backup": 40,
+    "binary": 27,
+    "archive": 21,
+    "batch": 21,
+    "plist": 14,
+    "markdown": 12,
+    "yaml": 3
+  },
+  "device_guess_counts": {
+    "15G": 14144,
+    "mini2": 9290,
+    "12G": 8810,
+    "mini1": 7984,
+    "iPhone11Pro": 6545,
+    "EXTERNAL_DEVICE_REDACTED": 4194,
+    "iPhone12_Pro_Max": 2854,
+    "iPad": 904,
+    "UNKNOWN": 872,
+    "iPhone6s_Plus": 765,
+    "mini1G": 109,
+    "MY_DEVICE_UNSPECIFIED": 37
+  },
+  "evidence_class_counts": {
+    "RAW_DEVICE_LOG_ARCHIVE": 55527,
+    "ROOM85_RECONSTRUCTION_OUTPUT": 772,
+    "MINI1G_BASELINE_OR_RAW": 107,
+    "REPO_34_PUBLIC_PACKAGE": 60,
+    "FINAL_33B_PUBLIC_PACKAGE": 42
+  },
+  "top_date_counts": {
+    "2025-08-07": 601,
+    "2025-08-05": 534,
+    "2025-08-08": 526,
+    "2025-08-06": 525,
+    "2025-08-09": 524,
+    "2025-08-18": 505,
+    "2025-07-02": 504,
+    "2025-08-04": 462,
+    "2025-08-13": 438,
+    "2025-08-03": 423,
+    "2025-08-02": 422,
+    "2025-07-31": 401,
+    "2025-09-22": 401,
+    "2025-08-10": 386,
+    "2025-08-22": 386,
+    "2025-08-15": 383,
+    "2025-08-16": 379,
+    "2025-08-20": 379,
+    "2025-08-17": 366,
+    "2026-03-18": 366,
+    "2025-08-01": 363,
+    "2025-08-21": 357,
+    "2025-08-11": 356,
+    "2025-08-12": 347,
+    "2025-08-28": 336,
+    "2025-08-30": 324,
+    "2025-08-24": 321,
+    "2025-07-30": 315,
+    "2025-08-25": 306,
+    "2025-09-21": 304,
+    "2025-07-28": 303,
+    "2025-08-31": 301,
+    "2025-08-26": 296,
+    "2025-08-23": 290,
+    "2025-09-24": 281,
+    "2025-09-23": 280,
+    "2025-08-29": 278,
+    "2026-03-17": 273,
+    "2025-07-29": 269,
+    "2025-09-15": 261,
+    "2025-11-03": 259,
+    "2025-11-05": 257,
+    "2025-09-07": 257,
+    "2025-08-14": 250,
+    "2025-09-16": 250,
+    "2025-09-13": 249,
+    "2025-10-05": 249,
+    "2025-10-22": 248,
+    "2025-12-13": 245,
+    "2025-07-25": 241
+  },
+  "boundary": {
+    "raw_artifacts_in_public_repo": false,
+    "full_private_paths_in_public_register": false,
+    "sha256_public": true,
+    "size_public": true,
+    "redacted_paths_public": true,
+    "hash_is_integrity_anchor_not_malware_ioc": true
+  }
+}
