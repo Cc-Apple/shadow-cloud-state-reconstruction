@@ -1,0 +1,132 @@
+{
+  "created_at": "2026-06-08 00:52:22",
+  "out_dir": "C:\\Users\\Administrator\\Desktop\\Result\\SC_Final_33b_RECONSTRUCTION_SEAL_FIXED",
+  "final_model": "Shadow Cloud / SC",
+  "definition": "condition-triggered, multi-purpose, mobile-native platform-state control model",
+  "final_score": {
+    "SC_RECONSTRUCTION_AVERAGE_FINAL": 94.675,
+    "判定": "VERY_STRONG_RECONSTRUCTION_WITH_BASELINE_CONTROL",
+    "旧平均": 94.05,
+    "旧baseline対照": 75,
+    "31d_baseline対照": 80,
+    "baseline差分": "+0.625",
+    "計算式": "94.05 + ((80 - 75) / 8) = 94.675",
+    "境界": "scoreは解析設計に依存。攻撃者/国家/Apple/C2の断定ではない。"
+  },
+  "adopted_source_count": 9,
+  "adopted_missing_count": 0,
+  "source_status": [
+    {
+      "source_key": "22b_axis_fix",
+      "path": "C:\\Users\\Administrator\\Desktop\\Result\\SC_Final_22b_AXIS_FIXED",
+      "exists": true,
+      "text_files": 13,
+      "keyword_evidence_rows": 29,
+      "status": "ADOPTED_SOURCE_READY"
+    },
+    {
+      "source_key": "24c_reconstruction",
+      "path": "C:\\Users\\Administrator\\Desktop\\Result\\SC_Reconstruction_24c_BASELINE_CONTROL",
+      "exists": true,
+      "text_files": 7,
+      "keyword_evidence_rows": 16,
+      "status": "ADOPTED_SOURCE_READY"
+    },
+    {
+      "source_key": "25b_internal_control",
+      "path": "C:\\Users\\Administrator\\Desktop\\Result\\SC_Internal_Control_25b_STRICT",
+      "exists": true,
+      "text_files": 17,
+      "keyword_evidence_rows": 30,
+      "status": "ADOPTED_SOURCE_READY"
+    },
+    {
+      "source_key": "27_wiring",
+      "path": "C:\\Users\\Administrator\\Desktop\\Result\\SC_Wiring_27",
+      "exists": true,
+      "text_files": 12,
+      "keyword_evidence_rows": 34,
+      "status": "ADOPTED_SOURCE_READY"
+    },
+    {
+      "source_key": "28_victim",
+      "path": "C:\\Users\\Administrator\\Desktop\\Result\\SC_JetsamVictim_28",
+      "exists": true,
+      "text_files": 11,
+      "keyword_evidence_rows": 25,
+      "status": "ADOPTED_SOURCE_READY"
+    },
+    {
+      "source_key": "29f_usageclientid",
+      "path": "C:\\Users\\Administrator\\Desktop\\Result\\SC_UsageClientId_29f_FINAL_VERDICT",
+      "exists": true,
+      "text_files": 9,
+      "keyword_evidence_rows": 26,
+      "status": "ADOPTED_SOURCE_READY"
+    },
+    {
+      "source_key": "30d_endpoint",
+      "path": "C:\\Users\\Administrator\\Desktop\\Result\\SC_Endpoint_30d_PATH_OWNER_AUDIT_FINAL",
+      "exists": true,
+      "text_files": 14,
+      "keyword_evidence_rows": 41,
+      "status": "ADOPTED_SOURCE_READY"
+    },
+    {
+      "source_key": "31d_baseline",
+      "path": "C:\\Users\\Administrator\\Desktop\\Result\\SC_Baseline_31d_MINI1G_FINAL",
+      "exists": true,
+      "text_files": 12,
+      "keyword_evidence_rows": 21,
+      "status": "ADOPTED_SOURCE_READY"
+    },
+    {
+      "source_key": "32b_falsification",
+      "path": "C:\\Users\\Administrator\\Desktop\\Result\\SC_Falsification_32b_FINAL_MATRIX_FIXED",
+      "exists": true,
+      "text_files": 14,
+      "keyword_evidence_rows": 9,
+      "status": "ADOPTED_SOURCE_READY"
+    }
+  ],
+  "source_files_indexed": 109,
+  "source_keyword_evidence_rows": 231,
+  "target_windows": [
+    "15G/C2026MAR_A",
+    "15G/C2026MARAPR_B",
+    "mini1/C2025AUG"
+  ],
+  "key_source_copies": 23,
+  "key_source_missing_count": 0,
+  "repo_files": [
+    {
+      "file": "33b_README_REPO_DRAFT.md",
+      "description": "repo用README草案"
+    },
+    {
+      "file": "33b_f_public_summary_ja.md",
+      "description": "公開用日本語要約"
+    },
+    {
+      "file": "33b_g_machine_summary.yaml",
+      "description": "機械用最終要約"
+    }
+  ],
+  "guardrail_rows": 7,
+  "falsification_shortlist_rows": 7,
+  "v1_fix_report_rows": 3,
+  "boundary": {
+    "v1_score_mismatch_fixed": true,
+    "final_score_consistent": true,
+    "final_score_value": 94.675,
+    "not_attribution": true,
+    "no_c2_claim": true,
+    "no_connection_success_claim": true,
+    "no_hidden_mdm_final_claim": true,
+    "no_apple_attribution": true,
+    "usageclientid_not_explicit_old_new": true,
+    "baseline_not_clean_control": true,
+    "external_devices_not_core_joker": true
+  },
+  "sha_rows": 38
+}

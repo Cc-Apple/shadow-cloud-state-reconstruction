@@ -1,0 +1,5 @@
+﻿項目,内容
+言えること,Jetsam/resource/stacks/backup/logd/deleted等のresource pressure対象をvictim候補表として整理した。
+言えること,backup/log/file/screenshot系がvictimカテゴリに出る場合、証拠保存妨害目的の補強材料になる。
+言えないこと,regex抽出だけで実際にkillされたprocessを完全確定したとは言わない。
+次に必要,28f_manual_review_top_files.csvの上位ファイルを手動確認し、JetsamEvent内のkilled/largestProcess/reasonを読む。

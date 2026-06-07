@@ -1,0 +1,9 @@
+﻿項目,内容
+最終モデル,Shadow Cloud = condition-triggered multi-purpose mobile-native platform-state control model
+再構成スコア平均,94.05
+最低スコア,94.05
+baseline対照スコア,75.0
+再構成判定,VERY_STRONG_RECONSTRUCTION_WITH_BASELINE_CONTROL
+変更点,正常対照というラベルを廃止し、baseline対照へ変更。clean端末は存在しない前提を明記。
+言えること,保存済みログから、条件発火・daemon seam・resource pressure・目的推定を含むSC設計図の骨格を強く再構成できる。
+言えないこと,完全clean controlの成立、攻撃者/国家/Apple関与/hidden MDM/Remote Commandの確定、実装コード特定、法的意図の確定。

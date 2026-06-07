@@ -1,0 +1,12 @@
+﻿項目,内容
+最終モデル名,Shadow Cloud / SC
+定義,"condition-triggered, multi-purpose, mobile-native platform-state control model"
+日本語定義,条件発火型・多目的型・mobile-native platform-state制御モデル
+FINAL target,"15G/C2026MAR_A, 15G/C2026MARAPR_B, mini1/C2025AUG"
+Remote Command,主役ではない。Remote candidate=0。PRE_RESERVED_STRONG。
+上流配線,15GはTELECOM_BASEBAND_UPSTREAM。mini1/C2025AUGはACCOUNT_CLOUD_TRUST_UPSTREAM + raw Baseband入口。
+目的,証拠保存妨害、trust/account再評価、telecom再同期、data/index同期準備、restriction seam、実験/調整。
+usageClientId,具体UUIDとtimeline-derived broad from→to候補あり。明示old→newではない。mini1 strict候補はNgoc外部由来として除外。
+endpoint,mini1/C2025AUG target-only Apple ecosystem endpoint contextあり。15G endpointはPATH_TARGET_MISMATCHで不採用。C2/通信成立断定なし。
+baseline,mini1G low-exposure baseline。31dでhard SC marker 0。clean controlではない。
+最終score,94.675 / VERY_STRONG_RECONSTRUCTION_WITH_BASELINE_CONTROL

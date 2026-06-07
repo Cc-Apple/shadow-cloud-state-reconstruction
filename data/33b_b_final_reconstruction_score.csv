@@ -1,0 +1,2 @@
+﻿SC_RECONSTRUCTION_AVERAGE_FINAL,判定,旧平均,旧baseline対照,31d_baseline対照,baseline差分,計算式,境界
+94.675,VERY_STRONG_RECONSTRUCTION_WITH_BASELINE_CONTROL,94.05,75,80,+0.625,94.05 + ((80 - 75) / 8) = 94.675,scoreは解析設計に依存。攻撃者/国家/Apple/C2の断定ではない。

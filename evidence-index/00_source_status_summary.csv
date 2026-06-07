@@ -1,0 +1,10 @@
+﻿source_key,path,exists,text_files,keyword_evidence_rows,status
+22b_axis_fix,C:\Users\Administrator\Desktop\Result\SC_Final_22b_AXIS_FIXED,True,13,29,ADOPTED_SOURCE_READY
+24c_reconstruction,C:\Users\Administrator\Desktop\Result\SC_Reconstruction_24c_BASELINE_CONTROL,True,7,16,ADOPTED_SOURCE_READY
+25b_internal_control,C:\Users\Administrator\Desktop\Result\SC_Internal_Control_25b_STRICT,True,17,30,ADOPTED_SOURCE_READY
+27_wiring,C:\Users\Administrator\Desktop\Result\SC_Wiring_27,True,12,34,ADOPTED_SOURCE_READY
+28_victim,C:\Users\Administrator\Desktop\Result\SC_JetsamVictim_28,True,11,25,ADOPTED_SOURCE_READY
+29f_usageclientid,C:\Users\Administrator\Desktop\Result\SC_UsageClientId_29f_FINAL_VERDICT,True,9,26,ADOPTED_SOURCE_READY
+30d_endpoint,C:\Users\Administrator\Desktop\Result\SC_Endpoint_30d_PATH_OWNER_AUDIT_FINAL,True,14,41,ADOPTED_SOURCE_READY
+31d_baseline,C:\Users\Administrator\Desktop\Result\SC_Baseline_31d_MINI1G_FINAL,True,12,21,ADOPTED_SOURCE_READY
+32b_falsification,C:\Users\Administrator\Desktop\Result\SC_Falsification_32b_FINAL_MATRIX_FIXED,True,14,9,ADOPTED_SOURCE_READY

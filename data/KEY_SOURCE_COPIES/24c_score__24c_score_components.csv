@@ -1,0 +1,25 @@
+﻿device,focus,component,score,weight,weighted_score,reason
+15G,C2026MAR_A,再現性,100,15,15.0,RUN1/RUN2主要final完全一致
+15G,C2026MAR_A,条件発火性,100,17,17.0,"PRE=66, T5=131, T30=44, remote=0, trigger_total=241"
+15G,C2026MAR_A,daemon_seam構造,100,14,14.0,SC_DESIGN_STRONG;daemon_order_model=MIXED;derived_top_daemon=CommCenter;raw_first_daemon=Baseband;timestamped_daemon_days=7
+15G,C2026MAR_A,raw配線,85,16,13.6,first_daemon_candidate;raw_resource_evidence_pressure;raw_trigger_supported;usage_from_to_missing;endpoint_context_present
+15G,C2026MAR_A,目的推定,90,13,11.7,"model=MULTI_PURPOSE_PLATFORM_STATE_CONTROL, composite=79.83"
+15G,C2026MAR_A,軸モデル,95,10,9.5,2026-03/04 Joker実行軸=15G
+15G,C2026MAR_A,反証耐性,95,10,9.5,remote_candidate_zero;raw_trigger_supported;multi_purpose_consistent;pre_reserved_supported;boundary_defined
+15G,C2026MAR_A,baseline対照,75.0,5,3.75,clean controlなし。25b strict internal control + mini1G low-exposure baselineに基づく。完全clean端末ではないため baseline/control として扱う。
+15G,C2026MARAPR_B,再現性,100,15,15.0,RUN1/RUN2主要final完全一致
+15G,C2026MARAPR_B,条件発火性,100,17,17.0,"PRE=38, T5=94, T30=77, remote=0, trigger_total=209"
+15G,C2026MARAPR_B,daemon_seam構造,100,14,14.0,SC_DESIGN_STRONG;daemon_order_model=MIXED;derived_top_daemon=CommCenter;raw_first_daemon=Baseband;timestamped_daemon_days=8
+15G,C2026MARAPR_B,raw配線,85,16,13.6,first_daemon_candidate;raw_resource_evidence_pressure;raw_trigger_supported;usage_from_to_missing;endpoint_context_present
+15G,C2026MARAPR_B,目的推定,90,13,11.7,"model=MULTI_PURPOSE_PLATFORM_STATE_CONTROL, composite=79.83"
+15G,C2026MARAPR_B,軸モデル,95,10,9.5,2026-03/04 Joker実行軸=15G
+15G,C2026MARAPR_B,反証耐性,95,10,9.5,remote_candidate_zero;raw_trigger_supported;multi_purpose_consistent;pre_reserved_supported;boundary_defined
+15G,C2026MARAPR_B,baseline対照,75.0,5,3.75,clean controlなし。25b strict internal control + mini1G low-exposure baselineに基づく。完全clean端末ではないため baseline/control として扱う。
+mini1,C2025AUG,再現性,100,15,15.0,RUN1/RUN2主要final完全一致
+mini1,C2025AUG,条件発火性,100,17,17.0,"PRE=14, T5=22, T30=5, remote=0, trigger_total=41"
+mini1,C2025AUG,daemon_seam構造,100,14,14.0,SC_DESIGN_STRONG;daemon_order_model=MIXED;derived_top_daemon=SFA;raw_first_daemon=Baseband;timestamped_daemon_days=5
+mini1,C2025AUG,raw配線,85,16,13.6,first_daemon_candidate;raw_resource_evidence_pressure;raw_trigger_supported;usage_from_to_missing;endpoint_context_present
+mini1,C2025AUG,目的推定,90,13,11.7,"model=MULTI_PURPOSE_PLATFORM_STATE_CONTROL, composite=82.5"
+mini1,C2025AUG,軸モデル,95,10,9.5,C2025AUG中心軸=mini1
+mini1,C2025AUG,反証耐性,95,10,9.5,remote_candidate_zero;raw_trigger_supported;multi_purpose_consistent;pre_reserved_supported;boundary_defined
+mini1,C2025AUG,baseline対照,75.0,5,3.75,clean controlなし。25b strict internal control + mini1G low-exposure baselineに基づく。完全clean端末ではないため baseline/control として扱う。

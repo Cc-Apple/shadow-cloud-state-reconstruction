@@ -1,0 +1,149 @@
+{
+  "created_at": "2026-06-07 22:30:32",
+  "out_dir": "C:\\Users\\Administrator\\Desktop\\Result\\SC_Reconstruction_24c_BASELINE_CONTROL",
+  "SC_RECONSTRUCTION_AVERAGE": 94.05,
+  "reconstruction_status": "VERY_STRONG_RECONSTRUCTION_WITH_BASELINE_CONTROL",
+  "baseline_control_score": 75.0,
+  "baseline_control_note": "baseline/control strengthened by mini1G low-exposure baseline; still not clean control",
+  "evidence": [
+    {
+      "source": "25b_STRICT_INTERNAL_CONTROL",
+      "score": 65.0,
+      "meaning": "strict internal control stress; not clean control",
+      "path": "C:\\Users\\Administrator\\Desktop\\Result\\SC_Internal_Control_25b_STRICT\\25b_MASTER_SUMMARY.json"
+    },
+    {
+      "source": "26_mini1G_LOW_EXPOSURE_BASELINE",
+      "score": 75.0,
+      "meaning": "mini1G low-exposure baseline / smoke control; not fully clean device",
+      "path": "C:\\Users\\Administrator\\Desktop\\Result\\SC_CleanControl_26_mini1G\\26_MASTER_SUMMARY.json"
+    }
+  ],
+  "score_rows": [
+    {
+      "device": "15G",
+      "focus": "C2026MAR_A",
+      "SC_RECONSTRUCTION_SCORE": 94.05,
+      "grade": "A_PLUS_STRONG_RECONSTRUCTION",
+      "再現性": "100",
+      "条件発火性": "100",
+      "daemon_seam構造": "100",
+      "raw配線": "85",
+      "目的推定": "90",
+      "軸モデル": "95",
+      "反証耐性": "95",
+      "正常対照": "label_replaced_by_baseline対照",
+      "final_interpretation": "logs strongly reconstruct a condition-triggered, multi-purpose, mobile-native platform-state control model; control component is baseline/internal, not fully clean-device control",
+      "boundary": "score measures reconstruction from logs; no fully clean device control is claimed",
+      "baseline対照": 75.0
+    },
+    {
+      "device": "15G",
+      "focus": "C2026MARAPR_B",
+      "SC_RECONSTRUCTION_SCORE": 94.05,
+      "grade": "A_PLUS_STRONG_RECONSTRUCTION",
+      "再現性": "100",
+      "条件発火性": "100",
+      "daemon_seam構造": "100",
+      "raw配線": "85",
+      "目的推定": "90",
+      "軸モデル": "95",
+      "反証耐性": "95",
+      "正常対照": "label_replaced_by_baseline対照",
+      "final_interpretation": "logs strongly reconstruct a condition-triggered, multi-purpose, mobile-native platform-state control model; control component is baseline/internal, not fully clean-device control",
+      "boundary": "score measures reconstruction from logs; no fully clean device control is claimed",
+      "baseline対照": 75.0
+    },
+    {
+      "device": "mini1",
+      "focus": "C2025AUG",
+      "SC_RECONSTRUCTION_SCORE": 94.05,
+      "grade": "A_PLUS_STRONG_RECONSTRUCTION",
+      "再現性": "100",
+      "条件発火性": "100",
+      "daemon_seam構造": "100",
+      "raw配線": "85",
+      "目的推定": "90",
+      "軸モデル": "95",
+      "反証耐性": "95",
+      "正常対照": "label_replaced_by_baseline対照",
+      "final_interpretation": "logs strongly reconstruct a condition-triggered, multi-purpose, mobile-native platform-state control model; control component is baseline/internal, not fully clean-device control",
+      "boundary": "score measures reconstruction from logs; no fully clean device control is claimed",
+      "baseline対照": 75.0
+    }
+  ],
+  "strength_weakness": [
+    {
+      "device": "15G",
+      "focus": "C2026MAR_A",
+      "score": 94.05,
+      "grade": "A_PLUS_STRONG_RECONSTRUCTION",
+      "strong_points": "再現性;条件発火性;daemon_seam構造;raw配線;目的推定;軸モデル;反証耐性",
+      "weak_points": "",
+      "next_needed": "true full-clean control if available; usageClientId from/to; launchd/MachServices dependency; Jetsam victim complete table",
+      "label_note": "clean controlではなく baseline対照"
+    },
+    {
+      "device": "15G",
+      "focus": "C2026MARAPR_B",
+      "score": 94.05,
+      "grade": "A_PLUS_STRONG_RECONSTRUCTION",
+      "strong_points": "再現性;条件発火性;daemon_seam構造;raw配線;目的推定;軸モデル;反証耐性",
+      "weak_points": "",
+      "next_needed": "true full-clean control if available; usageClientId from/to; launchd/MachServices dependency; Jetsam victim complete table",
+      "label_note": "clean controlではなく baseline対照"
+    },
+    {
+      "device": "mini1",
+      "focus": "C2025AUG",
+      "score": 94.05,
+      "grade": "A_PLUS_STRONG_RECONSTRUCTION",
+      "strong_points": "再現性;条件発火性;daemon_seam構造;raw配線;目的推定;軸モデル;反証耐性",
+      "weak_points": "",
+      "next_needed": "true full-clean control if available; usageClientId from/to; launchd/MachServices dependency; Jetsam victim complete table",
+      "label_note": "clean controlではなく baseline対照"
+    }
+  ],
+  "final_statement": [
+    {
+      "項目": "最終モデル",
+      "内容": "Shadow Cloud = condition-triggered multi-purpose mobile-native platform-state control model"
+    },
+    {
+      "項目": "再構成スコア平均",
+      "内容": 94.05
+    },
+    {
+      "項目": "最低スコア",
+      "内容": 94.05
+    },
+    {
+      "項目": "baseline対照スコア",
+      "内容": 75.0
+    },
+    {
+      "項目": "再構成判定",
+      "内容": "VERY_STRONG_RECONSTRUCTION_WITH_BASELINE_CONTROL"
+    },
+    {
+      "項目": "変更点",
+      "内容": "正常対照というラベルを廃止し、baseline対照へ変更。clean端末は存在しない前提を明記。"
+    },
+    {
+      "項目": "言えること",
+      "内容": "保存済みログから、条件発火・daemon seam・resource pressure・目的推定を含むSC設計図の骨格を強く再構成できる。"
+    },
+    {
+      "項目": "言えないこと",
+      "内容": "完全clean controlの成立、攻撃者/国家/Apple関与/hidden MDM/Remote Commandの確定、実装コード特定、法的意図の確定。"
+    }
+  ],
+  "boundary": {
+    "clean_control_exists": false,
+    "label_changed_from_normal_control_to_baseline_control": true,
+    "baseline_control_uses_internal_control_and_low_exposure_baseline": true,
+    "not_full_clean_device_control": true,
+    "not_actor_attribution": true,
+    "not_legal_proof_of_intent": true
+  }
+}

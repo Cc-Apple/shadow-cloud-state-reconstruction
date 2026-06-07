@@ -1,0 +1,50 @@
+最終モデル: Shadow Cloud
+略称: SC
+定義: condition-triggered, multi-purpose, mobile-native platform-state control model
+日本語定義: 条件発火型・多目的型・mobile-native platform-state制御モデル
+
+最終score: 94.675
+最終判定: VERY_STRONG_RECONSTRUCTION_WITH_BASELINE_CONTROL
+
+score根拠:
+  old_24c_average: 94.05
+  old_baseline_score: 75
+  new_31d_baseline_score: 80
+  adjustment: 0.625
+  formula: 94.05 + ((80 - 75) / 8) = 94.675
+
+FINAL_TARGET:
+  - 15G / C2026MAR_A
+  - 15G / C2026MARAPR_B
+  - mini1 / C2025AUG
+
+採用source:
+  - 22b_axis_fix
+  - 24c_reconstruction
+  - 25b_internal_control
+  - 27_wiring
+  - 28_victim
+  - 29f_usageclientid
+  - 30d_endpoint
+  - 31d_baseline
+  - 32b_falsification
+
+不採用source:
+  - 25_initial_rejected
+  - 30_v1_not_final
+  - 31_v1_mixed
+  - 31b_no_input
+  - 31c_helper_only
+  - 32_v1_source_resolution_bug
+  - 33_v1_score_mismatch
+
+境界:
+  攻撃者特定: false
+  国家関与断定: false
+  Apple関与断定: false
+  C2断定: false
+  通信成立断定: false
+  hidden_MDM断定: false
+  usageClientId_old_new明示確定: false
+  clean_control: false
+  baseline_type: low-exposure baseline

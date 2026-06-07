@@ -1,0 +1,19 @@
+{
+  "created_at": "2026-06-08 01:02:29",
+  "package": "shadow-cloud-reconstruction-score-lite",
+  "source": "C:\\Users\\Administrator\\Desktop\\Result\\SC_Final_33b_RECONSTRUCTION_SEAL_FIXED",
+  "out_dir": "C:\\Users\\Administrator\\Desktop\\Result\\SC_Repo_34_LITE_PACKAGE",
+  "max_copy_mb": 8,
+  "copied_files": 39,
+  "skipped_files": 3,
+  "large_skipped_files": 1,
+  "promoted_docs": 7,
+  "boundary": {
+    "lite_package": true,
+    "large_files_not_copied": true,
+    "large_files_recorded_in_manifest": true,
+    "not_attribution": true,
+    "no_c2_claim": true,
+    "no_clean_control_claim": true
+  }
+}

@@ -1,0 +1,4 @@
+﻿device,focus,score,grade,strong_points,weak_points,next_needed,label_note
+15G,C2026MAR_A,94.05,A_PLUS_STRONG_RECONSTRUCTION,再現性;条件発火性;daemon_seam構造;raw配線;目的推定;軸モデル;反証耐性,,true full-clean control if available; usageClientId from/to; launchd/MachServices dependency; Jetsam victim complete table,clean controlではなく baseline対照
+15G,C2026MARAPR_B,94.05,A_PLUS_STRONG_RECONSTRUCTION,再現性;条件発火性;daemon_seam構造;raw配線;目的推定;軸モデル;反証耐性,,true full-clean control if available; usageClientId from/to; launchd/MachServices dependency; Jetsam victim complete table,clean controlではなく baseline対照
+mini1,C2025AUG,94.05,A_PLUS_STRONG_RECONSTRUCTION,再現性;条件発火性;daemon_seam構造;raw配線;目的推定;軸モデル;反証耐性,,true full-clean control if available; usageClientId from/to; launchd/MachServices dependency; Jetsam victim complete table,clean controlではなく baseline対照

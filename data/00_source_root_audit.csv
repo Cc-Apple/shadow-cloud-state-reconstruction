@@ -1,0 +1,17 @@
+﻿source_key,adoption,path,exists,type
+22b_axis_fix,ADOPTED,C:\Users\Administrator\Desktop\Result\SC_Final_22b_AXIS_FIXED,True,folder
+24c_reconstruction,ADOPTED,C:\Users\Administrator\Desktop\Result\SC_Reconstruction_24c_BASELINE_CONTROL,True,folder
+25b_internal_control,ADOPTED,C:\Users\Administrator\Desktop\Result\SC_Internal_Control_25b_STRICT,True,folder
+27_wiring,ADOPTED,C:\Users\Administrator\Desktop\Result\SC_Wiring_27,True,folder
+28_victim,ADOPTED,C:\Users\Administrator\Desktop\Result\SC_JetsamVictim_28,True,folder
+29f_usageclientid,ADOPTED,C:\Users\Administrator\Desktop\Result\SC_UsageClientId_29f_FINAL_VERDICT,True,folder
+30d_endpoint,ADOPTED,C:\Users\Administrator\Desktop\Result\SC_Endpoint_30d_PATH_OWNER_AUDIT_FINAL,True,folder
+31d_baseline,ADOPTED,C:\Users\Administrator\Desktop\Result\SC_Baseline_31d_MINI1G_FINAL,True,folder
+32b_falsification,ADOPTED,C:\Users\Administrator\Desktop\Result\SC_Falsification_32b_FINAL_MATRIX_FIXED,True,folder
+25_initial_rejected,REJECTED_OR_SUPERSEDED,C:\Users\Administrator\Desktop\Result\SC_Internal_Control_25,True,folder
+30_v1_not_final,REJECTED_OR_SUPERSEDED,C:\Users\Administrator\Desktop\Result\SC_Endpoint_30_DEDUP_REVIEW,True,folder
+31_v1_mixed,REJECTED_OR_SUPERSEDED,C:\Users\Administrator\Desktop\Result\SC_Baseline_31_MINI1G_PIPELINE,False,missing
+31b_no_input,REJECTED_OR_SUPERSEDED,C:\Users\Administrator\Desktop\Result\SC_Baseline_31b_MINI1G_STRICT,False,missing
+31c_helper_only,REJECTED_OR_SUPERSEDED,C:\Users\Administrator\Desktop\Result\SC_Baseline_31c_PREPARE_OR_HELPER,False,missing
+32_v1_source_resolution_bug,REJECTED_OR_SUPERSEDED,C:\Users\Administrator\Desktop\Result\SC_Falsification_32_FINAL_MATRIX,False,missing
+33_v1_score_mismatch,REJECTED_OR_SUPERSEDED,C:\Users\Administrator\Desktop\Result\SC_Final_33_RECONSTRUCTION_SEAL,True,folder

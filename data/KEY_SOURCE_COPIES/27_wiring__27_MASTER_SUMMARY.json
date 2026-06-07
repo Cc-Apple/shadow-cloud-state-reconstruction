@@ -1,0 +1,177 @@
+{
+  "created_at": "2026-06-07 22:39:52",
+  "out_dir": "C:\\Users\\Administrator\\Desktop\\Result\\SC_Wiring_27",
+  "targets": [
+    [
+      "15G",
+      "C2026MAR_A"
+    ],
+    [
+      "15G",
+      "C2026MARAPR_B"
+    ],
+    [
+      "mini1",
+      "C2025AUG"
+    ]
+  ],
+  "input_check": [
+    {
+      "key": "RAW23",
+      "path": "C:\\Users\\Administrator\\Desktop\\Result\\SC_Raw_23",
+      "exists": true,
+      "type": "folder"
+    },
+    {
+      "key": "REVERSE20",
+      "path": "C:\\Users\\Administrator\\Desktop\\Result\\SC_Reverse_20",
+      "exists": true,
+      "type": "folder"
+    },
+    {
+      "key": "STRICT19",
+      "path": "C:\\Users\\Administrator\\Desktop\\Result\\Counting_backwards_v2_strict",
+      "exists": true,
+      "type": "folder"
+    },
+    {
+      "key": "RECON24C",
+      "path": "C:\\Users\\Administrator\\Desktop\\Result\\SC_Reconstruction_24c_BASELINE_CONTROL",
+      "exists": true,
+      "type": "folder"
+    },
+    {
+      "key": "MY_LOG_ROOT",
+      "path": "D:\\Device-Logs_整理済み\\My_Device",
+      "exists": true,
+      "type": "folder"
+    },
+    {
+      "key": "FRIEND_LOG_ROOT",
+      "path": "D:\\Device-Logs_整理済み\\Friend_Device",
+      "exists": true,
+      "type": "folder"
+    }
+  ],
+  "upstream_summary": [
+    {
+      "device": "15G",
+      "focus": "C2026MAR_A",
+      "top_upstream_class": "TELECOM_BASEBAND",
+      "top_upstream_class_score": 141.5,
+      "top_upstream_daemon": "Baseband",
+      "top_upstream_daemon_score": 66.6,
+      "all_class_scores": "TELECOM_BASEBAND:141.5;ACCOUNT_CLOUD_TRUST:82.3;BACKUP_EVIDENCE:56.2;RESTRICTION_POLICY:54.7;TIME_LOCATION:48.8;INDEX_APP_STORAGE:48.6",
+      "all_daemon_scores": "Baseband:66.6;CommCenter:64.9;cloudd:32.5;deleted:23.7;assetsd:22.7;logd:22.5;locationd:20.0;CKKS:19.1;dmd:18.3;ManagedSettings:18.0;searchd:16.8;duetexpertd:15.2;SFA:14.9;accountsd:14.8;timed:13.6",
+      "confidence": "HIGH",
+      "interpretation": "upstream wiring candidate reconstructed from raw+derived outputs",
+      "boundary": "not causal proof; launchd/MachServices review required"
+    },
+    {
+      "device": "15G",
+      "focus": "C2026MARAPR_B",
+      "top_upstream_class": "TELECOM_BASEBAND",
+      "top_upstream_class_score": 139.9,
+      "top_upstream_daemon": "Baseband",
+      "top_upstream_daemon_score": 67.1,
+      "all_class_scores": "TELECOM_BASEBAND:139.9;ACCOUNT_CLOUD_TRUST:99.65;BACKUP_EVIDENCE:55.3;TIME_LOCATION:36.9;INDEX_APP_STORAGE:32.0;RESTRICTION_POLICY:20.0",
+      "all_daemon_scores": "Baseband:67.1;CommCenter:62.8;cloudd:32.5;accountsd:26.85;deleted:22.8;CKKS:22.5;logd:22.5;triald:22.5;searchd:17.7;duetexpertd:15.9;assetsd:14.3;SFA:14.1;timed:11.0;FileProvider:10.0;dmd:10.0",
+      "confidence": "HIGH",
+      "interpretation": "upstream wiring candidate reconstructed from raw+derived outputs",
+      "boundary": "not causal proof; launchd/MachServices review required"
+    },
+    {
+      "device": "mini1",
+      "focus": "C2025AUG",
+      "top_upstream_class": "ACCOUNT_CLOUD_TRUST",
+      "top_upstream_class_score": 150.95,
+      "top_upstream_daemon": "Baseband",
+      "top_upstream_daemon_score": 81.2,
+      "all_class_scores": "ACCOUNT_CLOUD_TRUST:150.95;TELECOM_BASEBAND:133.7;BACKUP_EVIDENCE:65.0;TIME_LOCATION:49.0;INDEX_APP_STORAGE:48.65;RESTRICTION_POLICY:0",
+      "all_daemon_scores": "Baseband:81.2;SFA:67.5;CommCenter:42.5;cloudd:39.45;deleted:32.5;triald:31.75;CKKS:22.5;logd:22.5;duetexpertd:20.4;SpringBoard:20.0;timed:20.0;assetsd:19.2;CloudServices:11.5;FileProvider:10.3;backupd:10.0",
+      "confidence": "HIGH",
+      "interpretation": "upstream wiring candidate reconstructed from raw+derived outputs",
+      "boundary": "not causal proof; launchd/MachServices review required"
+    }
+  ],
+  "edge_summary": [
+    {
+      "device": "15G",
+      "focus": "C2026MAR_A",
+      "edge_count_total": 2,
+      "top_adjacent_edges": "Baseband->managedappdistributiond:1;managedappdistributiond->assetsd:1",
+      "top_first_to_later_edges": "Baseband->searchd:5;Baseband->duetexpertd:4;Baseband->managedappdistributiond:3;Baseband->deleted:2;Baseband->assetsd:2;Baseband->suggestd:2;assetsd->deleted:1;Baseband->dmd:1;Baseband->CommCenter:1;searchd->duetexpertd:1",
+      "interpretation": "raw sequence graph candidate"
+    },
+    {
+      "device": "15G",
+      "focus": "C2026MARAPR_B",
+      "edge_count_total": 3,
+      "top_adjacent_edges": "deleted->searchd:1;CommCenter->assetsd:1;assetsd->Baseband:1",
+      "top_first_to_later_edges": "Baseband->searchd:5;Baseband->duetexpertd:4;Baseband->assetsd:2;searchd->deleted:1;duetexpertd->CommCenter:1;duetexpertd->assetsd:1;duetexpertd->Baseband:1;duetexpertd->searchd:1",
+      "interpretation": "raw sequence graph candidate"
+    },
+    {
+      "device": "mini1",
+      "focus": "C2025AUG",
+      "edge_count_total": 2,
+      "top_adjacent_edges": "fileproviderd->FileProvider:1;searchd->duetexpertd:1",
+      "top_first_to_later_edges": "Baseband->duetexpertd:3;Baseband->fileproviderd:1;Baseband->FileProvider:1;Baseband->cloudd:1;Baseband->searchd:1",
+      "interpretation": "raw sequence graph candidate"
+    }
+  ],
+  "machservices_hits": 36008,
+  "machservices_files": 7807,
+  "machservices_errors": 0,
+  "wiring_model": [
+    {
+      "device": "15G",
+      "focus": "C2026MAR_A",
+      "wiring_model": "TELECOM_BASEBAND_UPSTREAM",
+      "chain_hypothesis": "Baseband/TelephonyBaseband -> CommCenter -> account/cloud/policy/resource seam",
+      "top_upstream_class": "TELECOM_BASEBAND",
+      "top_upstream_daemon": "Baseband",
+      "raw_edge_summary": "Baseband->managedappdistributiond:1;managedappdistributiond->assetsd:1",
+      "raw_first_to_later_edges": "Baseband->searchd:5;Baseband->duetexpertd:4;Baseband->managedappdistributiond:3;Baseband->deleted:2;Baseband->assetsd:2;Baseband->suggestd:2;assetsd->deleted:1;Baseband->dmd:1;Baseband->CommCenter:1;searchd->duetexpertd:1",
+      "launchd_machservices_text_support": "PARTIAL_TEXT_HIT",
+      "wiring_confidence": "MEDIUM_PLUS",
+      "interpretation": "dependency wiring reconstruction candidate",
+      "boundary": "causal dependency not proven; launchd/MachServices manual validation remains"
+    },
+    {
+      "device": "15G",
+      "focus": "C2026MARAPR_B",
+      "wiring_model": "TELECOM_BASEBAND_UPSTREAM",
+      "chain_hypothesis": "Baseband/TelephonyBaseband -> CommCenter -> account/cloud/policy/resource seam",
+      "top_upstream_class": "TELECOM_BASEBAND",
+      "top_upstream_daemon": "Baseband",
+      "raw_edge_summary": "deleted->searchd:1;CommCenter->assetsd:1;assetsd->Baseband:1",
+      "raw_first_to_later_edges": "Baseband->searchd:5;Baseband->duetexpertd:4;Baseband->assetsd:2;searchd->deleted:1;duetexpertd->CommCenter:1;duetexpertd->assetsd:1;duetexpertd->Baseband:1;duetexpertd->searchd:1",
+      "launchd_machservices_text_support": "PARTIAL_TEXT_HIT",
+      "wiring_confidence": "MEDIUM_PLUS",
+      "interpretation": "dependency wiring reconstruction candidate",
+      "boundary": "causal dependency not proven; launchd/MachServices manual validation remains"
+    },
+    {
+      "device": "mini1",
+      "focus": "C2025AUG",
+      "wiring_model": "ACCOUNT_CLOUD_TRUST_UPSTREAM",
+      "chain_hypothesis": "SFA/CKKS/CloudServices -> cloudd/accountsd -> policy/resource seam",
+      "top_upstream_class": "ACCOUNT_CLOUD_TRUST",
+      "top_upstream_daemon": "Baseband",
+      "raw_edge_summary": "fileproviderd->FileProvider:1;searchd->duetexpertd:1",
+      "raw_first_to_later_edges": "Baseband->duetexpertd:3;Baseband->fileproviderd:1;Baseband->FileProvider:1;Baseband->cloudd:1;Baseband->searchd:1",
+      "launchd_machservices_text_support": "PARTIAL_TEXT_HIT",
+      "wiring_confidence": "MEDIUM_PLUS",
+      "interpretation": "dependency wiring reconstruction candidate",
+      "boundary": "causal dependency not proven; launchd/MachServices manual validation remains"
+    }
+  ],
+  "sha_rows": 10,
+  "boundary": {
+    "purpose": "refine SC wiring: Baseband/CommCenter/SFA upstream dependency candidates",
+    "causal_dependency_proven": false,
+    "launchd_machservices_manual_review_needed": true,
+    "raw_timestamp_order_not_equal_to_true_causality": true
+  }
+}

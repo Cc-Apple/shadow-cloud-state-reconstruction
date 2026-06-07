@@ -1,0 +1,17 @@
+﻿source_key,path,採用状態,理由
+22b_axis_fix,C:\Users\Administrator\Desktop\Result\SC_Final_22b_AXIS_FIXED,採用,C2025AUG axis label修正版。mini1/15G/外部supportを分離。
+24c_reconstruction,C:\Users\Administrator\Desktop\Result\SC_Reconstruction_24c_BASELINE_CONTROL,採用,baseline control版の再構成score。31d補正前の旧平均94.05の根拠。
+25b_internal_control,C:\Users\Administrator\Desktop\Result\SC_Internal_Control_25b_STRICT,採用,strict internal control。25初回の混入を修正。
+27_wiring,C:\Users\Administrator\Desktop\Result\SC_Wiring_27,採用,Baseband/CommCenter/SFA/CKKS配線候補。
+28_victim,C:\Users\Administrator\Desktop\Result\SC_JetsamVictim_28,採用,Jetsam/resource victimとevidence preservation pressure。
+29f_usageclientid,C:\Users\Administrator\Desktop\Result\SC_UsageClientId_29f_FINAL_VERDICT,採用,usageClientId最終統合。混入監査後。
+30d_endpoint,C:\Users\Administrator\Desktop\Result\SC_Endpoint_30d_PATH_OWNER_AUDIT_FINAL,採用,endpoint path-owner audit final。target/external/mismatch分離。
+31d_baseline,C:\Users\Administrator\Desktop\Result\SC_Baseline_31d_MINI1G_FINAL,採用,mini1G final baseline。Desktop\mini1Gのみ読取。baseline 80の根拠。
+32b_falsification,C:\Users\Administrator\Desktop\Result\SC_Falsification_32b_FINAL_MATRIX_FIXED,採用,反証matrix fixed。source evidence全解決。
+25_initial_rejected,C:\Users\Administrator\Desktop\Result\SC_Internal_Control_25,不採用/旧版,UNKNOWN_FOCUS/row数/派生混入により不採用。
+30_v1_not_final,C:\Users\Administrator\Desktop\Result\SC_Endpoint_30_DEDUP_REVIEW,不採用/旧版,endpointノイズ大量。30b/30c/30dで置換。
+31_v1_mixed,C:\Users\Administrator\Desktop\Result\SC_Baseline_31_MINI1G_PIPELINE,不採用/旧版,date fallbackでmini2/iPhone11Pro混入。
+31b_no_input,C:\Users\Administrator\Desktop\Result\SC_Baseline_31b_MINI1G_STRICT,不採用/旧版,strictだがmini1G入力未検出。31dで置換。
+31c_helper_only,C:\Users\Administrator\Desktop\Result\SC_Baseline_31c_PREPARE_OR_HELPER,不採用/旧版,準備用batのみ。最終解析出力ではない。
+32_v1_source_resolution_bug,C:\Users\Administrator\Desktop\Result\SC_Falsification_32_FINAL_MATRIX,不採用/旧版,24c/27 source解決失敗。32bで置換。
+33_v1_score_mismatch,C:\Users\Administrator\Desktop\Result\SC_Final_33_RECONSTRUCTION_SEAL,不採用/旧版,33b_final_reconstruction_score=93.125と33c_verdict=94.675が不一致。33bで修正。

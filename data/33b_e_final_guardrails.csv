@@ -1,0 +1,8 @@
+﻿禁止表現,安全表現,理由
+攻撃者を特定した,non-attribution forensic reconstruction,attribution証拠ではない。
+C2 endpointを発見した,Apple ecosystem endpoint context was observed and de-duplicated,30dはC2/通信成立を示さない。
+mini1Gは完全clean,mini1G low-exposure baseline showed no hard SC markers,31dは完全非侵害証明ではない。
+usageClientId old→new確定,timeline-derived usageClientId transition candidates,29fは明示old/newではない。
+15G endpoint確定,15G endpoint rows were excluded after path-owner audit,30dでPATH_TARGET_MISMATCH。
+外部端末もcore Joker,external BC seam support,22bで外部端末はsupport only。
+Appleが攻撃した,Apple ecosystem trust-state anomalies,Apple主体性は示していない。

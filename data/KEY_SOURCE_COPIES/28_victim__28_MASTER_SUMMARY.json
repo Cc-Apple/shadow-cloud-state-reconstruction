@@ -1,0 +1,98 @@
+{
+  "created_at": "2026-06-07 22:51:27",
+  "out_dir": "C:\\Users\\Administrator\\Desktop\\Result\\SC_JetsamVictim_28",
+  "input_roots": {
+    "MY_LOG_ROOT": "D:\\Device-Logs_整理済み\\My_Device",
+    "FRIEND_LOG_ROOT": "D:\\Device-Logs_整理済み\\Friend_Device"
+  },
+  "targets": [
+    {
+      "device": "15G",
+      "focus": "C2026MAR_A",
+      "start": "2026-03-15",
+      "end": "2026-03-21"
+    },
+    {
+      "device": "15G",
+      "focus": "C2026MARAPR_B",
+      "start": "2026-03-28",
+      "end": "2026-04-04"
+    },
+    {
+      "device": "mini1",
+      "focus": "C2025AUG",
+      "start": "2025-08-04",
+      "end": "2025-08-10"
+    }
+  ],
+  "file_scan_rows": 55387,
+  "resource_files": 2434,
+  "resource_event_rows": 1018696,
+  "victim_event_rows": 447540,
+  "scan_errors": 0,
+  "summary": [
+    {
+      "target_device": "15G",
+      "focus": "C2026MARAPR_B",
+      "resource_event_rows": 130481,
+      "victim_rows": 84085,
+      "unique_victims": 1705,
+      "top_victims": "com.apple.NSURLConnectionLoader:1895;AppleT8015TempSensor:1228;AppleT8020DART:1156;AudioDMAChannel:1093;com.apple.uikit.eventfetch-thread:1070;IOUserNetworkTxSubmissionQueue:890;MTLCompilerService:820;CommonUtilities-WiFi-Thread:790;caulk.messenger.shared:high:705;com.apple.CoreMotion.MotionThread:650;AppleDCPLinkServiceSoC:612;apfs_purgatory_cleaner:555;AppleMCA2Controller_T8101:546;extensionkitservice:540;IOSlowAdaptiveClockingDomain:483;RTBuddyService:478;InterruptEventSourceBridge:476;AppleMCA2Cluster_T8101:409;caulk::deferred_logger:392;AppleSEPManager:342;com.apple.CFSocket.private:331;AudioConverterService:276;IOUserNetworkWLAN:274;IOSkywalkNetworkBSDClient:273;JavaScriptCore libpas scavenger:256;intents_helper:244;AppleT8020MTRTempSensor:206;AppleS5L8940XI2CController:204;cfprefsd:202;PhotosFileProvider:195",
+      "top_victim_categories": "BACKUP_EVIDENCE_TARGET:42329;OTHER_OR_UNKNOWN_TARGET:38668;FILE_DATA_TARGET:3266;SYSTEM_STABILITY_TARGET:2471;LOG_PRESERVATION_TARGET:2034;SCREENSHOT_RECORDING_TARGET:1751;ACCOUNT_CLOUD_TRUST_TARGET:1668;TELECOM_BASEBAND_TARGET:975;RESTRICTION_POLICY_TARGET:657",
+      "top_resource_tags": "MEMORY_PRESSURE:60435;BACKUP_IMPACT:34383;JETSAM:30627;CPU_WAKE:12670;LOW_STORAGE:12152;LOGD_DELETED:2004;SCREENSHOT_RECORDING:359;STACKS:211;DISKWRITES:104;FORCERESET:34",
+      "top_reasons": "per-process-limit:73;stackshot via sysdiagnose:68;highwater:17;vm-compressor-thrashing:17;completionHandler:7;fc-thrashing:2;policyID:1;WifiSporadicNotKnown:1;17:1",
+      "top_roles": "",
+      "evidence_target_score": 98382,
+      "trust_telecom_policy_score": 3300,
+      "system_stability_score": 2471,
+      "crash_pressure_score": 103977,
+      "victim_target_model": "EVIDENCE_PRESERVATION_TARGET_PRESENT",
+      "boundary": "regex-based victim table; top files require manual confirmation"
+    },
+    {
+      "target_device": "15G",
+      "focus": "C2026MAR_A",
+      "resource_event_rows": 114943,
+      "victim_rows": 78311,
+      "unique_victims": 1892,
+      "top_victims": "com.apple.NSURLConnectionLoader:1364;AppleT8015TempSensor:1159;AppleT8020DART:1090;AudioDMAChannel:1033;com.apple.uikit.eventfetch-thread:998;IOUserNetworkTxSubmissionQueue:840;MTLCompilerService:765;CommonUtilities-WiFi-Thread:716;caulk.messenger.shared:high:663;com.apple.CoreMotion.MotionThread:640;AppleDCPLinkServiceSoC:579;apfs_purgatory_cleaner:520;AppleMCA2Controller_T8101:514;extensionkitservice:482;RTBuddyService:453;IOSlowAdaptiveClockingDomain:451;InterruptEventSourceBridge:448;AppleMCA2Cluster_T8101:387;caulk::deferred_logger:337;AppleSEPManager:322;AudioConverterService:313;com.apple.CFSocket.private:264;IOSkywalkNetworkBSDClient:259;AudioSession - RootQueue:229;IOUserNetworkWLAN:226;PhotosFileProvider:197;cfprefsd:196;AppleT8020MTRTempSensor:195;AppleS5L8940XI2CController:192;intents_helper:177",
+      "top_victim_categories": "BACKUP_EVIDENCE_TARGET:40212;OTHER_OR_UNKNOWN_TARGET:35620;FILE_DATA_TARGET:2921;SYSTEM_STABILITY_TARGET:2428;LOG_PRESERVATION_TARGET:1764;ACCOUNT_CLOUD_TRUST_TARGET:1393;SCREENSHOT_RECORDING_TARGET:1350;TELECOM_BASEBAND_TARGET:998;RESTRICTION_POLICY_TARGET:637",
+      "top_resource_tags": "MEMORY_PRESSURE:52248;BACKUP_IMPACT:33935;JETSAM:30110;CPU_WAKE:11127;LOW_STORAGE:10325;LOGD_DELETED:1582;STACKS:225;SCREENSHOT_RECORDING:166;DISKWRITES:76;FORCERESET:43",
+      "top_reasons": "per-process-limit:91;stackshot via sysdiagnose:64;highwater:12;vm-compressor-thrashing:11;completionHandler:7;disk-space-shortage:4;sustained-memory-pressure:1;progressHandler:1;WifiSporadicNotKnown:1",
+      "top_roles": "andUserIdentifier:2",
+      "evidence_target_score": 92331,
+      "trust_telecom_policy_score": 3028,
+      "system_stability_score": 2428,
+      "crash_pressure_score": 93753,
+      "victim_target_model": "EVIDENCE_PRESERVATION_TARGET_PRESENT",
+      "boundary": "regex-based victim table; top files require manual confirmation"
+    },
+    {
+      "target_device": "mini1",
+      "focus": "C2025AUG",
+      "resource_event_rows": 524091,
+      "victim_rows": 148498,
+      "unique_victims": 2721,
+      "top_victims": "JetsamAggregationV4:3556;KernelMemory_PerZoneCount:1668;KernelMemory_PerZoneSize:1668;KernelMemory_PerZoneEstimatedSize:1668;MTLCompilerService:1475;KernelMemory_VMKernPeak:1443;KernelMemory_VMKernSize:1443;ProcessFootprintSum_AtOrBelowJetsamPriority_v2:1265;extensionkitservice:1128;DaemonTimeAtJetsamPriorityBand_v2:1070;ProcessFootprintSum_AtJetsamPriority:1054;ProcessFootprintSum_AtOrAboveJetsamPriority:1039;intents_helper:1035;massStorage_power_coalitionInfo:862;CategoriesService:828;com.apple.WebKit.WebContent:757;massStorage_spaceAttribution_info:695;intervalUsageActiveDurationsHistogramViews:672;HomeKitDailyErrorAggregationV8:593;com.apple.WebKit.Networking:519;com.apple.NSURLConnectionLoader:505;cfprefsd:502;Espresso_Analytics_v5:501;OrientationChangesWithDisplayState:477;TimeSpentInOrientation_v2:477;Espresso_Analytics_v4:462;com.apple.SensorKit.SKMediaEvent:410;RawDeviceStateHistogram:393;ProductPageExtension:389;com.apple.uikit.eventfetch-thread:388",
+      "top_victim_categories": "OTHER_OR_UNKNOWN_TARGET:89184;LOG_PRESERVATION_TARGET:38109;BACKUP_EVIDENCE_TARGET:10803;FILE_DATA_TARGET:6079;SYSTEM_STABILITY_TARGET:3877;ACCOUNT_CLOUD_TRUST_TARGET:3746;SCREENSHOT_RECORDING_TARGET:3574;TELECOM_BASEBAND_TARGET:1526;RESTRICTION_POLICY_TARGET:1279",
+      "top_resource_tags": "MEMORY_PRESSURE:208004;CPU_WAKE:102626;LOW_STORAGE:96056;JETSAM:14833;BACKUP_IMPACT:9574;LOGD_DELETED:5162;DISKWRITES:2509;SCREENSHOT_RECORDING:2370;STACKS:417;FORCERESET:40",
+      "top_reasons": "sustained-memory-pressure:2995;null:690;idle-exit:343;per-process-limit:339;highwater:155;vm-compressor-space-shortage:143;RESIDENCY_NONE:37;Saved:37;HomeScreen:34;vm-compressor-thrashing:30;smc.70070000 baseband SMC.OutboxNotEmpty:28;RESIDENCY_3:21;automatic:21;LockScreenSwipe:18;FBSDisplayLayoutMonitor:18",
+      "top_roles": "TYPE_USER:78",
+      "evidence_target_score": 174236,
+      "trust_telecom_policy_score": 6551,
+      "system_stability_score": 3877,
+      "crash_pressure_score": 325920,
+      "victim_target_model": "EVIDENCE_PRESERVATION_TARGET_PRESENT",
+      "boundary": "regex-based victim table; top files require manual confirmation"
+    }
+  ],
+  "manual_review_files": 300,
+  "sha_rows": 9,
+  "boundary": {
+    "regex_based_victim_extraction": true,
+    "manual_confirmation_required": true,
+    "read_raw_logs": true,
+    "read_manifest": false,
+    "does_not_prove_actor": true
+  }
+}

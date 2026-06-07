@@ -1,0 +1,5 @@
+﻿項目,score,根拠
+旧24c再構成平均,94.05,SC_Reconstruction_24c_BASELINE_CONTROLで採用済みのbaseline control版score。
+31d baseline更新,75→80,31d mini1G final baseline: hard SC marker 0 / LOW_EXPOSURE_BASELINE_NO_HARD_SC_MARKERS。
+baseline差分反映,+0.625,(80 - 75) / 8 = 0.625。
+最終平均,94.675,94.05 + 0.625 = 94.675。

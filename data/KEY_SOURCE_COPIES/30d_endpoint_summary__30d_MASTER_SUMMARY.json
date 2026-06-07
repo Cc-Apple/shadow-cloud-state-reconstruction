@@ -1,0 +1,23 @@
+{
+  "created_at": "2026-06-08 00:19:42",
+  "out_dir": "C:\\Users\\Administrator\\Desktop\\Result\\SC_Endpoint_30d_PATH_OWNER_AUDIT_FINAL",
+  "overview": {
+    "input_30c_rows": 3527,
+    "audited_rows": 3527,
+    "target_only_rows": 2028,
+    "external_cluster_support_rows": 1254,
+    "path_target_mismatch_rows": 245,
+    "unknown_or_review_rows": 245,
+    "focus_summary_rows": 3,
+    "target_daemon_summary_rows": 12,
+    "external_summary_rows": 2
+  },
+  "boundary": {
+    "target_only_is_final_endpoint_context": true,
+    "external_support_separated": true,
+    "mismatch_excluded_from_final_target": true,
+    "does_not_prove_c2": true,
+    "does_not_prove_connection_success": true
+  },
+  "sha_rows": 12
+}

@@ -1,0 +1,4 @@
+﻿問題,33v1,33b修正
+final score不一致,33b_final_reconstruction_score.csv=93.125 / 33c_final_verdict_table.csv=94.675,全ファイルを94.675に統一
+24c key source copy missing,33i_key_source_copies.csvで24c_score NOT_FOUND,24c folder全体からscore/reconstruction/baseline keywordで探索してcopy
+不採用sourceに33v1が未登録,33v1自身のscore mismatchをregisterしていない,33_v1_score_mismatchを不採用sourceへ追加

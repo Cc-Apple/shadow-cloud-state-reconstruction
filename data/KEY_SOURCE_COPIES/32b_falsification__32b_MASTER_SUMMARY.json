@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-06-08 00:44:55",
+  "out_dir": "C:\\Users\\Administrator\\Desktop\\Result\\SC_Falsification_32b_FINAL_MATRIX_FIXED",
+  "source_status": [
+    {
+      "source_key": "24c_reconstruction",
+      "folder_exists": true,
+      "keyword_evidence_rows": 16,
+      "source_status": "SOURCE_EVIDENCE_PRESENT"
+    },
+    {
+      "source_key": "27_wiring",
+      "folder_exists": true,
+      "keyword_evidence_rows": 34,
+      "source_status": "SOURCE_EVIDENCE_PRESENT"
+    },
+    {
+      "source_key": "28_victim",
+      "folder_exists": true,
+      "keyword_evidence_rows": 25,
+      "source_status": "SOURCE_EVIDENCE_PRESENT"
+    },
+    {
+      "source_key": "29f_usageclientid",
+      "folder_exists": true,
+      "keyword_evidence_rows": 26,
+      "source_status": "SOURCE_EVIDENCE_PRESENT"
+    },
+    {
+      "source_key": "30d_endpoint",
+      "folder_exists": true,
+      "keyword_evidence_rows": 41,
+      "source_status": "SOURCE_EVIDENCE_PRESENT"
+    },
+    {
+      "source_key": "31d_baseline",
+      "folder_exists": true,
+      "keyword_evidence_rows": 14,
+      "source_status": "SOURCE_EVIDENCE_PRESENT"
+    }
+  ],
+  "source_files_indexed": 65,
+  "source_keyword_evidence_rows": 156,
+  "unresolved_source_count": 0,
+  "facts_rows": 8,
+  "falsification_rows": 8,
+  "score_reference": [
+    {
+      "old_reconstruction_average": 94.05,
+      "old_baseline_score": 75,
+      "new_baseline_score_from_31d": 80,
+      "estimated_new_reconstruction_average": 94.675,
+      "note": "24cの8項目平均にbaseline差分だけ反映した参考値。正式更新は33 final sealで行う。"
+    }
+  ],
+  "boundary": {
+    "v1_p24_p27_resolution_bug_fixed": true,
+    "source_folder_inventory_used": true,
+    "keyword_evidence_audit_used": true,
+    "not_attribution": true,
+    "no_c2_claim": true,
+    "no_connection_success_claim": true,
+    "no_clean_control_claim": true,
+    "usageclientid_not_explicit_old_new": true
+  },
+  "sha_rows": 12
+}

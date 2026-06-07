@@ -1,0 +1,8 @@
+﻿反証ID,項目,SCが崩れる条件,優先度
+FAL-01,正常端末多数で同等score,正常iOS端末多数に同pipelineを回し、94点級のSC reconstructionが普通に出る。,最重要
+FAL-02,trigger-free daemon発火,Remote Command型を示すtrigger-free発火が大量に出る。,最重要
+FAL-03,wiring通常説明,Baseband/CommCenter/SFA/CKKSの順序が通常iOS診断で同型再現する。,重要
+FAL-04,evidence pressure否定,28のbackup/log/file/screenshot pressureがregex誤爆または無関係と確認される。,重要
+FAL-05,usageClientId通常説明,29fのusageClientId変動が通常app usage IDでSC窓と無関係と示される。,重要
+FAL-06,path-owner audit反証,29f/30dのTARGET_PATH_ONLYまたはexternal separationが誤りと示される。,重要
+FAL-07,baseline否定,mini1G/正常端末多数でhard SC markerが普通に出る。,最重要

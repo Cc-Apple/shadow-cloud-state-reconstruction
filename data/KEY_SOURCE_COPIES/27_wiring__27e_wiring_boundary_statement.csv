@@ -1,0 +1,5 @@
+﻿項目,内容
+言えること,raw timestampと派生結果から、SCの上流配線候補はBaseband/CommCenter/SFA系に絞られた。
+言えること,15G系はtelecom/baseband寄り、mini1/C2025AUGはrawではBaseband寄り、派生ではSFA/account-cloud寄りという二層構造が見える。
+言えないこと,launchd/MachServices上の真の因果依存関係やexploit entry vectorは未確定。
+次に必要,27cのMachServices/launchdヒットを手動確認し、Label/MachServices/ProgramArguments/KeepAliveの関係を読む。
